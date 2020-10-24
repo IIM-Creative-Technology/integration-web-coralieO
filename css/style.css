@@ -1,0 +1,650 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 1440px;
+}
+/*Header*/
+
+header{
+    width: 1440px;
+    height: 900px;
+    background: linear-gradient(to top, #2f2359, #4c3991);
+    color: #ffffff;
+}
+nav{
+    display: flex;
+    padding: 0px 138px 0px 111px;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+.logo{
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+.menu{
+    padding-top: 42px;
+    list-style: none;
+    display: flex;
+    float: right;
+    width: 608px;
+    height: 20px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+}
+.menu a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.men a:hover{
+    border-bottom: 2px solid #ffffff;
+}
+.bouton-connexion{
+    width: 170px;
+    height: 40px;
+    padding-top: 4px;
+    box-sizing: border-box;
+    border-radius: 22px;
+    text-align: center;
+    background-color: #bf3676;
+}
+.introduction{
+    display: flex;
+    padding-left: 177px;
+    box-sizing: border-box;
+}
+.accroche{
+    margin-top: 254px;
+    width: 497px;
+}
+.img-de-sondage{
+    margin-top: 147px;
+}
+.img-de-sondage img{
+    width: 766px;
+    height: 600px;
+}
+h1{
+    margin-bottom: 34px;
+    font-family: Poppins;
+    width: 497px;
+    height: 94px;
+    font-size: 46px;
+    font-weight: 800;
+    line-height: 1.22;
+    text-align: left;
+}
+.accroche p{
+    margin-bottom: 34px;
+    height: 68px;
+    font-family: Poppins;
+    font-size: 16px;
+    line-height: 1.56;
+    letter-spacing: normal;   
+    text-align: left;
+}
+.bouton-creation-de-groupe a, .défis-btn a{
+    font-family: Poppins;
+    color: #ffffff;
+  text-decoration: none;
+}
+.bouton-creation-de-groupe a{
+  width: 255px;
+  height: 22px;
+  font-size: 19.5px;
+  font-weight: 500;
+  line-height: 2.5;
+}
+.bouton-creation-de-groupe{
+    width: 312px;
+    height: 47px;
+    border-radius: 22px;
+    text-align: center;
+    background-color: #bf3676;
+}
+#fleche{
+    text-align: center;
+}
+/*main*/
+.categorie{
+    background-image: url("../Fil rouge - Intégration-assets/background.png") ;
+    width: 1440px;
+    height: 962px;
+    padding-top: 65px;
+    box-sizing: border-box;
+}
+.categorie h2{
+    height: 45px;
+    font-family: Poppins;
+    font-size: 40.5px;
+    font-weight: bold;
+    line-height: 0.52;
+    text-align: center;
+    color: #bf3676;
+    margin-bottom: 28px;
+}
+.categorie hr{
+    margin: 0 auto;
+}
+.categorie hr, .slider hr {
+    width: 248px;
+    height: 2px;
+    background-color: #bf3676;
+}
+.cat, .concept-details h3, .concept-details p{
+    color: #222222;
+}
+.cat{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.39;
+    text-align: center;
+    width: 788px;
+    height: 70px;
+    margin: 59px 325px 94px 328px;
+}
+.img{
+    width: 47px;
+    height: 57px;
+    margin-right: 29px;
+    margin-top: 25px;
+}
+.concept-details{
+    margin-left: 182px;
+    justify-content: space-around;
+    margin-right: 77px;
+}
+.concept-details h3{
+    width: 430px;
+    height: 23px;
+    font-family: Poppins;
+    font-size: 21px;
+    font-weight: 600;
+}
+.concept-details h3::after{
+    width: 11px;
+    height: 11px;
+    background-color: #bf3676;
+    content: '';
+    display: inline-block;
+    -moz-border-radius: 7.5px;
+    -webkit-border-radius: 7.5px;
+    border-radius: 7.5px;
+    margin-left:19px ;
+ 
+}
+.concept-details p{
+  height: 114px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.56;
+  text-align: left;
+
+}
+.concept{
+    display: flex;
+    margin-bottom: 97px;
+}
+.ligne2{
+    margin-top: 64px;
+    
+}
+.ligne1, .ligne2, .ligne1 section, .ligne2 section{
+    display: flex;
+}
+.ligne1 section, .ligne2 section{
+    padding-right: 22px;
+}
+aside{
+    width: 34px;
+    font-family: Poppins;
+    color: #929292;
+    writing-mode: vertical-rl;
+    margin-right: 74px;
+    height: 382px;
+    font-size: 9px;
+    position: relative;
+    transform: translate(0px, -40px);
+}
+.défis-btn{     
+    width: 367px;
+    height: 55px;
+    border-radius: 27.5px;
+    text-align: center;
+    background-color: #bf3676;
+    line-height: 3;
+    margin: 0 auto;
+}
+.slider{
+    height: 524px;
+    background-color: #ffffff;
+    padding-left: 112px;
+    padding-top: 61px;
+    box-sizing: border-box;
+}
+.titre-slide h2{
+    width: 580px;
+    height: 45px;
+    font-family: Poppins;
+    font-size: 40.5px;
+    font-weight: bold;
+    line-height: 0.52;
+    text-align: left;
+    color: #bf3676;
+}
+.titre-slide{
+   padding-bottom: 60px;
+    box-sizing: border-box;
+}
+.slide{
+    display: flex;
+    justify-content: space-between;
+}
+.logo-slide{
+    padding-right: 36px;
+    box-sizing: border-box;
+}
+.koh-lanta, .top-chef{
+    width: 478px;
+    height: 196px;
+    border-radius: 10px;
+    box-shadow: 0.9px 10px 15.5px 0.5px rgba(98, 98, 98, 0.19);
+    background-color: #ffffff;
+    padding-top: 43px;
+    padding-left: 25px;
+    box-sizing: border-box;
+}
+.koh-lanta, .top-chef, .btn_slide,.groupe{
+    display: flex;
+}
+.koh-lanta h2, .top-chef h2{  
+    width: 234px;
+    height: 17px;
+    font-family: Poppins;
+    font-size: 20.5px;
+    font-weight: 600;
+    text-align: left;
+    color: #222222;
+}
+.koh-lanta h3, .top-chef h3{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.53;
+    color: #222222;
+    margin-top: 9px;
+}
+.sous-titre{
+    height: 60px;
+    justify-content: space-around;
+}
+.points-slider{
+   text-align: center;
+}
+.points-slider div{
+    width: 21px;
+    height: 22px;
+    background-color: #bf3676;
+    content: '';
+    display: inline-block;
+    -moz-border-radius: 7.5px;
+    -webkit-border-radius: 7.5px;
+    border-radius: 7.5px;
+    margin-top: 65px;
+    margin-left: 11px;
+    cursor: pointer;
+}
+.points-slider div:hover{
+    background-color: #818181;
+}
+.btn_slide {
+    justify-content:space-around ;
+    text-align: center;
+}
+.btn_slide .premier {
+    width: 45px;
+    height: 19px;
+    border-radius: 9px;
+    background-color: #d3c4f2;
+}
+.btn_slide .deuxieme{
+    width: 128px;
+    height: 19px;
+    border-radius: 9px;
+    background-color: #d3c4f2;
+}
+.btn_slide div a{
+width: 89px;
+height: 11px;
+font-family: Poppins;
+font-size: 12px;
+text-decoration: none;
+text-align: center;
+color: #ffffff;
+}
+.groupe h4{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.53;
+    text-align: left;
+    color: #747474;
+}
+.personnaliser{
+    background: linear-gradient(to top, #2f2359, #4c3991);
+    height: 823px;
+    padding-top: 73px;
+    padding-left: 185px;
+    box-sizing: border-box;
+}
+.personnaliser h2{
+    height: 45px;
+    font-family: Poppins;
+    font-size: 40.5px;
+    font-weight: bold;
+    line-height: 0.52;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 29px;
+}
+.personnaliser hr{
+    width: 249px;
+  height: 2px;
+  background-color: #ffffff;
+  margin: 0 auto;
+}
+.background {
+    transform: translate(290px, 180px);
+    position: absolute;
+    z-index: 1;
+}
+.explications{
+    z-index: 10;
+    display: flex;
+    padding-bottom: 120px;
+    box-sizing: border-box;
+}
+.titre {
+    display: flex;
+    justify-content: space-between;
+    width: 436px;
+    height: 92px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.56;
+    text-align: left;
+    color: #ffffff;
+}
+.nouveau-btn{
+  width: 126px;
+  height: 24px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #ffffff;
+}
+.nouveau-btn a{
+    width: 84px;
+    height: 13px;
+    font-family: Poppins;
+    font-size: 16.5px;
+    font-weight: 600;
+    text-align: left;
+    text-decoration: none;
+    color: #2f2359;
+}
+.titre1{
+    padding-bottom: 111px;
+}
+.petit_texte{
+    width: 436px;
+    height: 92px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.56;
+    text-align: left;
+    color: #ffffff;
+  }
+.petit_texte span {
+    font-size: 12px;
+    font-weight: 300;
+  }
+#list-num{
+    padding-left: 111px;
+    padding-top: 54px;
+    box-sizing: border-box;
+}
+#list-num ul li{
+list-style: none;
+display: flex;
+justify-content: space-around;
+height: 45px;
+margin-bottom: 28px;
+}
+#list-num ul{
+    width: 555px;
+    height: 300px;
+}
+#list-num ul li span{
+    width: 9px;
+    height: 22px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.7;
+    color: #2f2359;
+}
+#list-num .number{
+    width: 49px;
+    height: 48px;
+    background-color: #ffffff;
+    border-radius: 50px 50px;
+    text-align: center;
+}
+#list-num ul li h3{
+    width: 438px;
+    height: 39px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.56;
+    text-align: left;
+    color: #ffffff;
+}
+.inscription-btn{
+    width: 530px;
+    height: 55px;
+    border-radius: 27.5px;
+    background-color: #bf3676;
+    text-align: center;
+    margin: 0 auto;
+}
+.inscription-btn a{
+    text-decoration: none;
+    line-height: 3;
+    width: 465px;
+    height: 21px;
+    font-family: Poppins;
+    font-size: 19px;
+    font-weight: 500;
+    color: #ffffff;
+}
+.commentaire{
+    display: flex;
+    height:720.6px
+}
+.commentaire_texte{
+    width: 722px;
+    padding: 205px 0px 0px 115px;
+    box-sizing: border-box;
+}
+#quote{
+    z-index: 1;
+    float: right;
+}
+#texte_1_2{
+    z-index: 10;
+    margin-bottom: 24px;
+    height: 390px;
+}
+#texte_1_2 span{
+    height: 45px;
+    font-family: Poppins;
+    font-size: 72px;
+    font-weight: 500;
+    float: left;
+    margin-right: 6px;
+    margin-bottom: 12px;
+    color: #222222;
+}
+/* .texte_1{ width: 456px;
+    height: 55px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+    color: #222222;} */
+.texte_1{
+    width: 503px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+    color: #222222;
+    padding-top: 20px;
+}
+.texte_2{
+    width: 509px;
+    height: 32px;
+    font-family: Poppins;
+    font-size: 14px;
+    text-align: left;
+    color: #bbbbbb;
+}
+/*footer*/
+footer{
+    background-image: url("../Fil rouge - Intégration-assets/background-footer.png");
+    height: 414px;
+    padding-left: 112px;
+    padding-top: 70.1px;
+    box-sizing: border-box;
+}
+.menu_footer {
+    display: flex;
+    width: 440px;
+    justify-content: space-between;
+}
+.menu_footer a {
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 2.67;
+    text-align: left;
+    color: #ffffff;
+    margin-top: 36px;
+}
+footer hr{
+    width: 1229px;
+    height: 3px;
+    opacity: 0.35;
+    margin-bottom: 19px;
+    background-color: #ffffff;
+}
+footer p{
+    width: 779px;
+    height: 39px;
+    font-family: Poppins;
+    font-size: 11px;
+    margin: 0 auto;
+    text-align: center;
+    color: #ffffff;
+}
+.reseaux{
+    float: left;
+    padding-right: 107px;
+    padding-top: 160px;
+}
+.display{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*responsive*/
+@media (max-width: 576px) {
+    nav {
+        padding: 0px 160px 0px 70px;
+    }
+    .categorie {
+        width: 1440px;
+        height: 1462px;
+    }
+    .introduction {
+        padding-left: 180px;
+    }
+    .concept-details {
+        margin-left: 490px;
+        margin-right: 107px;
+    }
+    .concept-details p {
+        text-align: center;
+        width: 465px;
+    }
+    .img {
+        margin-left: 220px;
+        margin-bottom: 10px;
+    }
+    .concept-details h3 {
+        width: 530px;
+        text-align: center;
+    }
+    .ligne1, .ligne2, .ligne1 section, .ligne2 section{
+        display: block;
+    }
+    .ligne2{
+        margin-top: 0px;
+    }
+    aside {
+        height: 500px;
+        font-size: 14px;
+        transform: translate(0px, 140px);
+    }
+    .personnaliser {
+     padding-left: 0px; 
+     height: 1000px;
+    }
+    .explications {
+    display: block;
+    }
+    .petit_texte {
+        width: 436px;
+        height: 92px;
+        margin: 0 auto;
+    }
+    .titre {
+    margin: 0 auto;
+    }
+    #list-num ul {
+    margin: 0 auto;
+    }
+    .slide{
+        display: block;
+    }
+    .slider{
+        height: 934px;
+    }
+    .koh-lanta, .top-chef{
+        margin-bottom: 15px;
+        margin-left: 360px;
+    }
+    .points-slider {
+        width: 1200px;
+    }
+ }
